@@ -1,0 +1,15 @@
+{
+  "name": "proxy-translator",
+  "version": "1.0.0",
+  "description": "Server-side website proxy with translation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "@vitalets/google-translate-api": "^9.2.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Proxy Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Website Proxy Translator</h1>
+            <div class="controls">
+                <input type="text" id="site-url" placeholder="Enter website URL" value="https://www.cmegroup.com">
+                <button id="load-btn">Load Site</button>
+                <button id="translate-btn">Translate to French</button>
+                <button id="reload-btn">Reload</button>
+            </div>
+        </header>
+
+        <div class="content-container">
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading content...</p>
+            </div>
+            <div id="website-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
